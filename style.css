@@ -1,0 +1,61 @@
+body {
+    font-size: 15pt;
+    background: linear-gradient(30deg, orange, red);
+    background-attachment: fixed;
+    font-family: 'Rajdhani', sans-serif;
+}
+section{
+  display: flex;
+  gap: 10rem;
+  transform: translate(14rem, 7rem);
+}
+section{
+  background-color:linear-gradient(30deg, orange, red);
+  box-shadow: 9px 9px 15px 2px #181e1f;
+  height: 32rem;
+  width: 70rem;
+  border-radius: 2rem
+}
+div{
+  color: white;
+  font-size: 5rem;
+  background-color: black;
+  height: 23rem;
+  width: 230px;
+  border-radius: 2rem;
+}
+div{
+  transform: translate(4rem,4rem );
+}
+span{
+  font-size: 8rem;
+ position: relative;
+ left: 45px;
+ top: 75px;
+}
+/*FIX THE POSITION OF TIME*/
+#hour{
+  position: relative;
+  left: 4rem;
+}
+#minute{
+position: relative;
+left: 23%;
+}
+#second{
+  position: relative;
+  left: 3rem;
+}
+/*FIX THE WORDS*/
+.hr{
+  font-size: 2rem;
+  transform: translate(5rem, 5rem)
+}
+.sec{
+   font-size: 2rem;
+   transform: translate(3rem, 5rem)
+}
+.min{
+   font-size: 2rem;
+   transform: translate(4rem, 5rem)
+}
